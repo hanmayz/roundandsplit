@@ -4,4 +4,4 @@ xcode_project: iOS/RoundAndSplit/RoundAndSplit.xcodeproj
 xcode_scheme: RoundAndSplit
 xcode_sdk: iphonesimulator11.1
 osx_image: xcode9.1
-script: cd iOS/RoundAndSplit && xcodebuild clean && xcodebuild build -sdk iphonesimulator10.3 -project RoundAndSplit.xcodeproj -scheme RoundAndSplit CODE_SIGNING_REQUIRED=NO
+script: cd iOS/RoundAndSplit && xcodebuild clean && xcodebuild build -sdk iphonesimulator11.1 -project RoundAndSplit.xcodeproj -scheme RoundAndSplit CODE_SIGNING_REQUIRED=NO
